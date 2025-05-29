@@ -1,0 +1,12 @@
+def sort(arr,n,i = 1) :
+    if i == n  : return arr
+    j = i
+    v = arr[i]
+    while True :
+        arr[j] = arr[j - 1]
+        j = j - 1
+        if j == -1 or v >= arr[j] : break
+    
+    arr[j + 1] = v
+    
+    return sort(arr,n,i + 1)
