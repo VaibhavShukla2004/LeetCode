@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Main {
     static int BinarySearch(int [] arr, int target)
     { 
