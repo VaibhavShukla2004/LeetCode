@@ -70,7 +70,7 @@ class Node {
     }
 }
 
-public class Main {
+public class BinaryTree {
     public static void main(String[] args) {
         Node a = null;
         a = Node.buildNode();
